@@ -6,8 +6,8 @@
     <version>0.1.0</version>
     <authors>Brian Kim</authors>
     <owners>Wilderness Labs</owners>
-    <licenseUrl>https://github.com/WildernessLabs/Maple/blob/master/Licenses/Apache2_License.md</licenseUrl>
-    <projectUrl>https://github.com/WildernessLabs/Maple</projectUrl>
+    <licenseUrl>https://github.com/WildernessLabs/Meadow.Hello/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/WildernessLabs/Meadow.Hello</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple Hello from Meadow</description>
     <copyright>Copyright 2018 Wilderness Labs</copyright>
