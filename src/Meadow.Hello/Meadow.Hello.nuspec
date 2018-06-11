@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Meadow.Hello</id>
+    <title>A simple Hello from Meadow</title>
+    <version>0.1.0</version>
+    <authors>Brian Kim</authors>
+    <owners>Wilderness Labs</owners>
+    <licenseUrl>https://github.com/WildernessLabs/Maple/blob/master/Licenses/Apache2_License.md</licenseUrl>
+    <projectUrl>https://github.com/WildernessLabs/Maple</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple Hello from Meadow</description>
+    <copyright>Copyright 2018 Wilderness Labs</copyright>
+    <tags>Meadow Hello</tags>
+    <dependencies>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.SPOT.Hardware" targetFramework="netmf" />
+      <frameworkAssembly assemblyName="Microsoft.SPOT.Hardware.PWM" targetFramework="netmf" />
+      <frameworkAssembly assemblyName="Microsoft.SPOT.Hardware.SerialPort" targetFramework="netmf" />
+      <frameworkAssembly assemblyName="Microsoft.SPOT.Native" targetFramework="netmf" />
+      <frameworkAssembly assemblyName="Microsoft.SPOT.TinyCore" targetFramework="netmf" />
+    </frameworkAssemblies>
+  </metadata>
+  <!-- files to put into the nuget package. target is where they get put into the package. -->
+  <files>
+    <file src="bin\Release\le\Meadow.Hello.*" target="lib\netmf43\le" />
+    <file src="bin\Release\be\Meadow.Hello.*" target="lib\netmf43\be" />
+    <file src="bin\Release\Meadow.Hello.*" target="lib\netmf43" />
+  </files>
+</package>
